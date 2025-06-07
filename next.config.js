@@ -1,13 +1,8 @@
-const repo = '188-final-website'; // your GitHub repo name
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  basePath: `/${repo}`,
-  assetPrefix: `/${repo}/`,
+  reactStrictMode: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
 };
 
