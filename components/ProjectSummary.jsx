@@ -40,7 +40,7 @@ export default function ProjectSummary() {
         </div>
         <div className="h-64 bg-black flex items-center justify-center">
           <video className="w-full h-full object-cover" controls>
-            <source src="/demo.mp4" type="video/mp4" />
+            <source src="/188demo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
