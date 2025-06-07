@@ -5,9 +5,10 @@
   "homepage": "https://yingshiye.github.io/188-final-website/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
-    "deploy": "npm run export && gh-pages -d out"
+    "build": "next build",
+    "export": "next build && next export && mv out docs",
+    "deploy": "npm run export",
+    "start": "next start"
   },
   "dependencies": {
     "next": "^13.4.7",
