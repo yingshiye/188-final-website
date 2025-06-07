@@ -2,7 +2,7 @@
   "name": "robosuite-summary",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://<your-github-username>.github.io/<your-repo-name>",
+  "homepage": "https://yingshiye.github.io/188-final-website/",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
