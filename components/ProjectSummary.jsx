@@ -14,8 +14,9 @@ export default function ProjectSummary() {
         </div>
         <div className="h-64 bg-black flex items-center justify-center">
           <video className="w-full h-full" controls>
+            {/* Uncomment and update source when ready to embed your demo.mp4 */}
             {/* <source src="/demo.mp4" type="video/mp4" /> */}
-            {/* Your browser does not support the video tag. */}
+            Your browser does not support the video tag.
           </video>
         </div>
       </div>
@@ -23,9 +24,9 @@ export default function ProjectSummary() {
       <section>
         <h2 className="text-2xl font-semibold mb-4">Key Visualizations</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <img src="env.png" alt="Env setup" className="rounded shadow" />
-          <img src="episode_outcomes.png" alt="Episode outcomes" className="rounded shadow" />
-          <img src="steps_to_success_hist.png" alt="Steps to success" className="rounded shadow" />
+          <img src="/env.png" alt="Env setup" className="rounded shadow" />
+          <img src="/episode_outcomes.png" alt="Episode outcomes" className="rounded shadow" />
+          <img src="/steps_to_success_hist.png" alt="Steps to success" className="rounded shadow" />
         </div>
       </section>
 
