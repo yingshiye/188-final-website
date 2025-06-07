@@ -1,9 +1,8 @@
-// next.config.js
-const repo = '188-final-website'; 
+const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
   output: 'export',
   trailingSlash: true,
-  basePath: `/${repo}`,
-  assetPrefix: `/${repo}/`,
+  basePath: isProd ? '/188-final-website' : '',
+  assetPrefix: isProd ? '/188-final-website/' : '',
 };
