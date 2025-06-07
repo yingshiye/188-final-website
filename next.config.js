@@ -1,9 +1,14 @@
-const repo = '188-final-website';
+const repo = '188-final-website'; // your GitHub repo name
 
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: 'export',
   trailingSlash: true,
   basePath: `/${repo}`,
   assetPrefix: `/${repo}/`,
-  images: { unoptimized: true },
+  images: {
+    unoptimized: true
+  },
 };
+
+module.exports = nextConfig;
