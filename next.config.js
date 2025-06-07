@@ -1,8 +1,9 @@
-const isProd = process.env.NODE_ENV === 'production';
+const repo = '188-final-website';
 
 module.exports = {
   output: 'export',
   trailingSlash: true,
-  basePath: isProd ? '/188-final-website' : '',
-  assetPrefix: isProd ? '/188-final-website/' : '',
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
+  images: { unoptimized: true },
 };
